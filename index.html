@@ -13,6 +13,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Ferienwohnung Lidl</title>
   </head>
@@ -21,113 +22,107 @@
       ********************************
       ********************************
       ****                       *****
+      ****         HERO          *****
+      ****                       *****
+      ********************************
+      ********************************
+    -->
+    <div class="container-fluid hero">
+      <!--- 
+      ********************************
+      ********************************
+      ****                       *****
       ****         NAVBAR        *****
       ****                       *****
       ********************************
       ********************************
     -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-between">
+          <div>
+            <a class="navbar-brand fw-bold white" href="#">Lidl18</a>
+          </div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Apartment</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Buchung</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kontakt</a>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="#">Lidl18</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+    <!--- 
+      ********************************
+      ********************************
+      ****                       *****
+      ****         OFFERS        *****
+      ****                       *****
+      ********************************
+      ********************************
+    -->
+    <div class="container-fluid">
+      <div
+        class="d-flex p-2 flex-row justify-content-between align-items-center container-md"
+      >
+        <div class="p-2">Ab € 130/Nacht</div>
+        <div class="d-flex justify-content-between">
+          <div class="p-2">
+            <img src="./assets/icons/family_restroom_black_36dp.svg" /> bis 6
+            Personen (Kinder ab 12 J.)
+          </div>
+          <div class="p-2">
+            <img src="./assets/icons/smoke_free_black_36dp.svg" /> Nichtraucher
+          </div>
+          <div class="p-2">
+            <img src="./assets/icons/cottage_black_36dp.svg" /> ca. 74qm
+          </div>
+          <div class="p-2">
+            <img src="./assets/icons/king_bed_black_36dp.svg" /> 2 Schlafzimmer
+          </div>
+          <div class="p-2">
+            <img src="./assets/icons/yard_black_36dp.svg" />Terasse
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary btn-md">
+          Mehr Info
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Apartment</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Buchung</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-            <li class="nav-item"></li>
-          </ul>
-        </div>
       </div>
-    </nav>
-
-    <div class="d-flex">
-      <div class="p-2">Ab € 130/Nacht</div>
-      <div class="p-2">
-        <img src="./assets/icons/family_restroom_black_36dp.svg" /> bis 6
-        Personen (Kinder ab 12 J.)
-      </div>
-      <div class="p-2">
-        <img src="./assets/icons/smoke_free_black_36dp.svg" /> Nichtraucher
-      </div>
-      <div class="p-2">
-        <img src="./assets/icons/cottage_black_36dp.svg" /> ca. 74qm
-      </div>
-      <div class="p-2">
-        <img src="./assets/icons/king_bed_black_36dp.svg" /> 2 Schlafzimmer
-      </div>
-      <button type="button" class="btn btn-outline-primary btn-md">
-        Mehr Info
-      </button>
     </div>
 
-    <div class="container">
-      <h1 class="text-center">AUSSTATTUNG</h1>
-      <ul>
-        <li>Eigene Terasse</li>
-        <li>Doppelbett 160 cm</li>
-        <li>Smart TV</li>
-        <li>WLan</li>
-        <li>Bad mit Dusche</li>
-        <li>Garage mit Charger</li>
-        <li>Küche mit modernsten Geräten</li>
-      </ul>
-    </div>
+    <!--- 
+      ********************************
+      ********************************
+      ****                       *****
+      ****         CAROUSEL      *****
+      ****                       *****
+      ********************************
+      ********************************
+    -->
 
-    <div
-      id="carouselExampleInterval"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./assets/1c-Diele.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="./assets/1e-Diele.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/2a-Bad.jpeg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     <!--- 
       ********************************
       ********************************

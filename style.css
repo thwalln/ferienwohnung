@@ -1,0 +1,44 @@
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.carousel-wrapper {
+  background-color: cadetblue;
+  height: 400px;
+}
+
+.hero {
+  height: 70vh;
+  width: 100%;
+  background: url('/assets/hero.jpeg') no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.white {
+  color: white;
+}
+
+.carousel-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  object-position: 50% 50%;
+}
