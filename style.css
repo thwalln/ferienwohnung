@@ -1,44 +1,87 @@
-.blue {
-  background-color: blue;
+* {
+  box-sizing: border-box;
 }
 
-.red {
-  background-color: red;
+:root {
+  --bs-body-color: #333;
+  --bs-body-font-family: 'PlayfairDisplay', sans-serif;
 }
 
-.yellow {
-  background-color: yellow;
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('./fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
 }
 
-.green {
-  background-color: green;
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
 }
 
-.purple {
-  background-color: purple;
+html {
+  max-width: 1920px;
+  margin: auto;
 }
 
-.carousel-wrapper {
-  background-color: cadetblue;
-  height: 475x;
+body {
+  color: #333;  
 }
 
-.hero {
-  height: 70vh;
+.roboto-slab {
+  font-family: "RobotoSlab";
+  color: rgba(71, 71, 71, .75);
+}
+
+.h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.intro {
+  font-size: 15;
+  line-height: 1.7;
+}
+
+.background-hero {
+  background-color: #F7F7F7;
+  min-height: 80vh;
+}
+
+.hero-image {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
   width: 100%;
-  background: url('/assets/hero.jpeg') no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  background-position-x: center;
 }
 
-.white {
-  color: white;
+.col-image {
+  min-height: 500px;
+  position: relative;
 }
 
-.carousel-image {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 100%;
-  object-position: 50% 50%;
+.icons {
+  height: 100px;
+  background-color: #fff;
 }
+
+.icon {
+  height: 48px;
+  width: 48px;
+}
+
+
+
+
+
+/* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
+/* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
