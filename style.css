@@ -4,7 +4,7 @@
 
 :root {
   --bs-body-color: #333;
-  --bs-body-font-family: 'PlayfairDisplay', sans-serif;
+  --bs-body-font-family: 'RobotoSlab', sans-serif;
 }
 
 @font-face {
@@ -19,33 +19,32 @@
   font-display: swap;
 }
 
-html {
+.max-width-1920 {
   max-width: 1920px;
   margin: auto;
 }
 
 body {
-  color: #333;  
-}
-
-.roboto-slab {
-  font-family: "RobotoSlab";
-  color: rgba(71, 71, 71, .75);
+  color: #333;
 }
 
 .h1 {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(71, 71, 71, .75)
 }
 
 .h2 {
   font-weight: 700;
   font-size: 4rem;
+  font-family: "PlayfairDisplay";
 }
 
 .intro {
-  font-size: 15;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgba(71, 71, 71, .75)
 }
 
 .background-hero {
@@ -79,9 +78,45 @@ body {
   width: 48px;
 }
 
+.font-18 {
+  font-size: 18px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+/* Rename */
+.height-300 {
+  height: 500px;
+}
+
+.room-image {
+  object-fit: contain;
+  height: 500px;
+  width: 500px;
+  border-radius: 2px;
+  box-shadow: 0 36px 72px 0 rgba(0, 0, 0, 0.2), 0 44px 80px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
 
 /* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
 /* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
+/* https://unsplash.com/photos/cow-on-lawn-grass-mHcm4Bcu-Gs */
+
+
+
+/* Development only - delete later */
+html {
+  min-height: 2400px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
