@@ -195,6 +195,7 @@ button:hover .button-link:not(:hover) {
   color: #fff;
 }
 
+/* Switch to variables in the entire file */
 .btn-outline-dark {
   --bs-btn-color: var(--bs-text-color);
   --bs-btn-border-color: var(--bs-text-color);
@@ -204,3 +205,24 @@ button:hover .button-link:not(:hover) {
   --bs-btn-active-bg: var(--bs-body-color);
 }
 /* End icons */
+
+/* Start price */
+.link {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px dashed #333;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: var(--bs-text-color)
+}
+/* End price */
+
+/* remove all other classes and only stick with p for those with the same properties */
+p {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #333
+}
