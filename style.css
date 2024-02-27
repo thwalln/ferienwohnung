@@ -141,8 +141,12 @@ html {
   background-color: yellow;
 }
 
+.purple {
+  color: purple;
+}
 
-/* Vacation description */
+
+/* Start vacation description */
 .vacation-description {
     font-size: 20px;
     line-height: 1.7;
@@ -155,3 +159,19 @@ html {
   font-size: 3rem;
   font-family: "PlayfairDisplay";
 }
+/* End vacation description */
+
+/* Start features */
+.feature {
+  width: 24px;
+  height: 24px;
+}
+
+.feature-container {
+  background-color: #F7F7F7;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgba(71, 71, 71, .75)
+}
+/* End features */
