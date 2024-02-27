@@ -52,6 +52,7 @@ body {
   min-height: 80vh;
 }
 
+/* remame */
 .hero-image {
   bottom: 0;
   left: 0;
@@ -99,12 +100,28 @@ body {
   box-shadow: 0 28px 64px 0 rgba(0, 0, 0, 0.2), 0 36px 72px 0 rgba(0, 0, 0, 0.19);
 }
 
+.footer {
+  min-height: 80vh;
+  position: relative;
+}
+
+/* look into that again */
+.footer-image {
+  /* opacity: 0.95; */
+}
+
+.partner-logo {
+  height: 100px;
+  width: 200px;
+}
+
 
 
 
 /* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
 /* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
 /* https://unsplash.com/photos/cow-on-lawn-grass-mHcm4Bcu-Gs */
+/* https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
 
 
 
@@ -127,4 +144,19 @@ html {
 
 .yellow {
   background-color: yellow;
+}
+
+
+/* Vacation description */
+.vacation-description {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #333
+}
+
+.vacation-description-h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: "PlayfairDisplay";
 }
