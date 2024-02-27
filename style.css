@@ -172,6 +172,17 @@ html {
   font-size: 16px;
   line-height: 1.4;
   font-weight: 300;
-  color: rgba(71, 71, 71, .75)
+  color: rgba(71, 71, 71, .75);
 }
 /* End features */
+
+/* Start icons */
+.button-link {
+  text-decoration: none;
+  color: #212529;
+}
+
+.button-link:hover {
+  color: #fff;
+}
+/* End icons */
