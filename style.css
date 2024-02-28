@@ -183,9 +183,8 @@ html {
 
 /* Rename */
 .vacation-description-h2 {
-  font-weight: 500;
-  font-size: 3rem;
-  font-family: "PlayfairDisplay";
+  /* font-weight: 500; */
+  /* font-size: 3rem; */
 }
 /* End vacation description */
 
