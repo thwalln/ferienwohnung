@@ -4,9 +4,14 @@
 
 :root {
   --bs-body-color: #333;
+  --bs-body-secondary-color: #F7F7F7;
   --bs-text-color: rgba(71, 71, 71, .75);
   --bs-text-secondary-color: #333;
   --bs-body-font-family: 'RobotoSlab', sans-serif;
+}
+
+body {
+  color: var(--bs-body-color);
 }
 
 @font-face {
@@ -25,7 +30,7 @@
 
 /* umbennen, ggf. refactorn */
 .background-hero {
-  background-color: #F7F7F7;
+  background-color: var(--bs-body-secondary-color);
   min-height: 80vh;
 }
 
@@ -39,13 +44,12 @@ h2 {
 }
 
 p {
-  font-size: 20px;
   line-height: 1.7;
   font-weight: 300;
   color: var(--bs-text-color);
 }
 
-#ferienwohnung ~ p {
+b {
   color: var(--bs-text-secondary-color);
 }
 
@@ -72,9 +76,7 @@ p {
   margin: auto;
 }
 
-body {
-  color: #333;
-}
+
 
 
 
@@ -200,11 +202,7 @@ html {
 }
 
 .feature-container {
-  background-color: #F7F7F7;
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: 300;
-  color: rgba(71, 71, 71, .75);
+  background-color: var(--bs-body-secondary-color);
 }
 /* End features */
 
