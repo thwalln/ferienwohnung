@@ -28,22 +28,18 @@
   min-height: 80vh;
 }
 
-/* vielleicht umbenennen oder nicht h1 nutzen hierfür */
-.h1 {
-  font-size: 18px;
-  font-weight: 300;
-  color: rgba(71, 71, 71, .75)
+h1 {
+  color: var(--bs-text-color)
 }
 
 h2 {
   font-size: 4rem;
-  font-weight: 700;
   font-family: "PlayfairDisplay";
 }
 
 p {
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.7;
   font-weight: 300;
   color: rgba(71, 71, 71, .75)
 }
@@ -247,12 +243,7 @@ button:hover .button-link:not(:hover) {
 /* End price */
 
 /* remove all other classes and only stick with p for those with the same properties */
-p {
-  font-size: 20px;
-  line-height: 1.7;
-  font-weight: 300;
-  color: #333
-}
+
 
 .c-item {
   height: 480px;
