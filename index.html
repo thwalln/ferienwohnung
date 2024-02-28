@@ -49,9 +49,7 @@
     <!-- Start flat description -->
     <div class="container my-3 py-3">
       <div class="row">
-        <h2 class="fw-medium pb-2" id="ferienwohnung">
-          Eure Ferienwohnung
-        </h2>
+        <h2 class="fw-medium pb-2" id="ferienwohnung">Eure Ferienwohnung</h2>
         <p class="pb-2 fs-4">
           Die gemütliche Ferienwohnung im Erdgeschoss bietet auf 74m² Platz für
           bis zu sechs Personen und besteht aus zwei Schlafzimmern, Bad, Küche,
@@ -77,12 +75,80 @@
     </div>
     <!-- End flat description -->
 
+    <!-- Start Carousal -->
+    <div class="container my-1 py-1 pb-3 px-0">
+      <div id="carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="./assets/1c-Diele.jpeg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="./assets/2a-Bad.jpeg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="./assets/7a-Terrasse.jpeg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- End Carousal -->
+
     <!-- Start price -->
     <div class="container my-3 py-3">
       <div class="row">
-        <h2 class="pb-2 fw-medium">
-          Preise
-        </h2>
+        <h2 class="pb-2 fw-medium">Preise</h2>
       </div>
       <div class="row">
         <div class="col">
@@ -94,12 +160,16 @@
               >Kurtaxe</a
             >
           </p>
-          <p class="pb-2 fs-4"><b>Nebensaison</b> (Juni, September, November)</p>
+          <p class="pb-2 fs-4">
+            <b>Nebensaison</b> (Juni, September, November)
+          </p>
           <p class="pb-2 fs-4">
             1–2 Personen: 65 Euro <br />
             3–4 Personen: 75 Euro
           </p>
-          <p class="pb-2 fs-4"><b>Hauptsaison</b> (Dezember–Mai, Juli–August, Oktober)</p>
+          <p class="pb-2 fs-4">
+            <b>Hauptsaison</b> (Dezember–Mai, Juli–August, Oktober)
+          </p>
           <p class="pb-2 fs-4">
             1–2 Personen: 65 Euro <br />
             3–4 Personen: 75 Euro
