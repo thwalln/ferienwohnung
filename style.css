@@ -53,6 +53,11 @@ b {
   color: var(--bs-text-secondary-color);
 }
 
+.partner-logo {
+  height: 100px;
+  width: 200px;
+}
+
 @media screen and (max-width: 767px) {
   .background-hero {
     min-height: 40vh;
@@ -137,10 +142,7 @@ b {
   position: relative;
 }
 
-.partner-logo {
-  height: 100px;
-  width: 200px;
-}
+
 
 
 
@@ -187,13 +189,6 @@ html {
     font-weight: 300;
     color: #333
 }
-
-/* Rename */
-.vacation-description-h2 {
-  /* font-weight: 500; */
-  /* font-size: 3rem; */
-}
-/* End vacation description */
 
 /* Start features */
 .feature {
