@@ -34,6 +34,18 @@ body {
   min-height: 80vh;
 }
 
+/* remame */
+.hero-image {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
 .link {
   text-decoration: none;
   color: #333;
@@ -98,17 +110,7 @@ b {
 
 
 
-/* remame */
-.hero-image {
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-}
+
 
 .col-image {
   min-height: 500px;
