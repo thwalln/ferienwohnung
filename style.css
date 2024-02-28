@@ -91,6 +91,19 @@ b {
   filter: brightness(0.9);
 }
 
+.feature-image {
+  width: 28px;
+  height: 28px;
+}
+
+.feature {
+  font-size: 1.16rem;
+}
+
+.secondary-background {
+  background-color: var(--bs-body-secondary-color);
+}
+
 @media screen and (max-width: 767px) {
   .background-hero {
     min-height: 40vh;
@@ -214,14 +227,9 @@ html {
 }
 
 /* Start features */
-.feature {
-  width: 24px;
-  height: 24px;
-}
 
-.feature-container {
-  background-color: var(--bs-body-secondary-color);
-}
+
+
 /* End features */
 
 /* Start icons */
