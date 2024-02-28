@@ -81,6 +81,16 @@ b {
   width: 200px;
 }
 
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.9);
+}
+
 @media screen and (max-width: 767px) {
   .background-hero {
     min-height: 40vh;
@@ -246,12 +256,3 @@ button:hover .button-link:not(:hover) {
 /* remove all other classes and only stick with p for those with the same properties */
 
 
-.c-item {
-  height: 480px;
-}
-
-.c-img {
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.9);
-}
