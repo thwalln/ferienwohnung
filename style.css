@@ -5,6 +5,7 @@
 :root {
   --bs-body-color: #333;
   --bs-text-color: rgba(71, 71, 71, .75);
+  --bs-text-secondary-color: #333;
   --bs-body-font-family: 'RobotoSlab', sans-serif;
 }
 
@@ -41,7 +42,11 @@ p {
   font-size: 20px;
   line-height: 1.7;
   font-weight: 300;
-  color: rgba(71, 71, 71, .75)
+  color: var(--bs-text-color);
+}
+
+#ferienwohnung ~ p {
+  color: var(--bs-text-secondary-color);
 }
 
 @media screen and (max-width: 767px) {
