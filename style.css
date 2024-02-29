@@ -257,3 +257,8 @@ button:hover .button-link:not(:hover) {
 /* End price */
 
 /* remove all other classes and only stick with p for those with the same properties */
+
+
+.card {
+  border: none;
+}
