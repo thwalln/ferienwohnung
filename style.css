@@ -176,11 +176,8 @@ button:hover .button-link:not(:hover) {
 }
 
 
-/* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
-/* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
-/* https://unsplash.com/photos/cow-on-lawn-grass-mHcm4Bcu-Gs */
-/* https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
-/* bg-light ist zb bootstrap klasse für hintergrund. daher mal schauen ob wir das im css überhaupt brauchen oder ob wir das irgendwie anders hinbekommen */
+/* Icons from: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
+/* Image 1 from: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
+/* Image 2 from: https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
 
-
-/* Morgen Schrift, Bilder prüfen */
+/* Morgen Schrift prüfen */
