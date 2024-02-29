@@ -28,15 +28,11 @@ body {
   font-display: swap;
 }
 
-/* HIER DRÜBER NOCHMAL CHECKEN */
-
-/* umbennen, ggf. refactorn */
 .background-hero {
   background-color: var(--bs-body-secondary-color);
   min-height: 80vh;
 }
 
-/* remame */
 .hero-image {
   bottom: 0;
   left: 0;
@@ -48,17 +44,12 @@ body {
   width: 100%;
 }
 
-/* Rename */
-.height-400 {
-  height: 400px;
-}
-/* Rename */
 .pos-rel {
   position: relative;
 }
 
 .link-footer {
-  color: #333;
+  color: var(--bs-body-color);
 }
 .icon-footer {
   width: 20px;
@@ -67,8 +58,8 @@ body {
 
 .link {
   text-decoration: none;
-  color: #333;
-  border-bottom: 1px dashed #333;
+  color: var(--bs-body-color);
+  border-bottom: 1px dashed var(--bs-body-color);
   font-weight: 400;
 }
 
@@ -156,6 +147,20 @@ button:hover .button-link:not(:hover) {
   color: #fff;
 }
 
+.col-image {
+  min-height: 500px;
+  position: relative;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.footer {
+  height: 30vh;
+  position: relative;
+}
+
 @media screen and (max-width: 767px) {
   .background-hero {
     min-height: 40vh;
@@ -168,39 +173,8 @@ button:hover .button-link:not(:hover) {
   p {
     font-size: 16px;
   }
-
-  /* Rename */
-  .height-400 {
-    min-height: auto;
-  }
 }
 
-/* AB HIER ERSTMAL NICHT WEITER */
-
-.max-width-1920 {
-  max-width: 1920px;
-  margin: auto;
-}
-
-.col-image {
-  min-height: 500px;
-  position: relative;
-}
-
-.icons {
-  height: 100px;
-  background-color: #fff;
-  font-weight: 300;
-}
-
-.font-22 {
-  font-size: 22px;
-}
-
-.footer {
-  height: 30vh;
-  position: relative;
-}
 
 /* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
 /* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
@@ -209,4 +183,4 @@ button:hover .button-link:not(:hover) {
 /* bg-light ist zb bootstrap klasse für hintergrund. daher mal schauen ob wir das im css überhaupt brauchen oder ob wir das irgendwie anders hinbekommen */
 
 
-/* Morgen Schrift, Bilder, Klassen prüfen */
+/* Morgen Schrift, Bilder prüfen */
