@@ -115,6 +115,22 @@ b {
   background-color: var(--bs-body-secondary-color);
 }
 
+.icon {
+  height: 48px;
+  width: 48px;
+  filter: invert(20%) sepia(64%) saturate(2%) hue-rotate(102deg)
+    brightness(100%) contrast(81%);
+}
+
+.btn-outline-dark {
+  --bs-btn-color: var(--bs-text-color);
+  --bs-btn-border-color: var(--bs-text-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-text-color);
+  --bs-btn-hover-border-color: var(--bs-text-color);
+  --bs-btn-active-bg: var(--bs-body-color);
+}
+
 @media screen and (max-width: 767px) {
   .background-hero {
     min-height: 40vh;
@@ -152,12 +168,7 @@ b {
   font-weight: 300;
 }
 
-.icon {
-  height: 48px;
-  width: 48px;
-  filter: invert(20%) sepia(64%) saturate(2%) hue-rotate(102deg)
-    brightness(100%) contrast(81%);
-}
+
 
 .font-18 {
   font-size: 18px;
@@ -238,14 +249,7 @@ button:hover .button-link:not(:hover) {
 }
 
 /* Switch to variables in the entire file */
-.btn-outline-dark {
-  --bs-btn-color: var(--bs-text-color);
-  --bs-btn-border-color: var(--bs-text-color);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--bs-text-color);
-  --bs-btn-hover-border-color: var(--bs-text-color);
-  --bs-btn-active-bg: var(--bs-body-color);
-}
+
 /* End icons */
 
 /* Start price */
