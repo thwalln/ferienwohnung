@@ -193,9 +193,6 @@ button:hover .button-link:not(:hover) {
   font-weight: 300;
 }
 
-
-
-
 .font-22 {
   font-size: 22px;
 }
@@ -210,36 +207,3 @@ button:hover .button-link:not(:hover) {
 /* https://unsplash.com/photos/cow-on-lawn-grass-mHcm4Bcu-Gs */
 /* https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
 /* bg-light ist zb bootstrap klasse für hintergrund. daher mal schauen ob wir das im css überhaupt brauchen oder ob wir das irgendwie anders hinbekommen */
-
-
-/* Remove stuff below */
-.vacation-description {
-  font-size: 20px;
-  line-height: 1.7;
-  font-weight: 300;
-  color: #333;
-}
-
-html {
-  min-height: 2400px;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.purple {
-  color: purple;
-}
