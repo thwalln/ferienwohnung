@@ -4,10 +4,10 @@
 
 :root {
   --bs-body-color: #333;
-  --bs-body-secondary-color: #F7F7F7;
-  --bs-text-color: rgba(71, 71, 71, .75);
+  --bs-body-secondary-color: #f7f7f7;
+  --bs-text-color: rgba(71, 71, 71, 0.75);
   --bs-text-secondary-color: #333;
-  --bs-body-font-family: 'RobotoSlab', sans-serif;
+  --bs-body-font-family: "RobotoSlab", sans-serif;
 }
 
 body {
@@ -15,14 +15,16 @@ body {
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
-  src: url('./fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-family: "PlayfairDisplay";
+  src: url("./fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'RobotoSlab';
-  src: url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  font-family: "RobotoSlab";
+  src: url("./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf")
+    format("truetype");
   font-display: swap;
 }
 
@@ -48,7 +50,7 @@ body {
 
 /* Rename */
 .height-400 {
-  min-height: 400px;
+  height: 400px;
 }
 /* Rename */
 .pos-rel {
@@ -63,11 +65,11 @@ body {
 }
 
 .link:hover {
-  color: var(--bs-text-color)
+  color: var(--bs-text-color);
 }
 
 h1 {
-  color: var(--bs-text-color)
+  color: var(--bs-text-color);
 }
 
 h2 {
@@ -127,12 +129,10 @@ b {
   }
 
   /* Rename */
-.height-400 {
-  min-height: auto;
+  .height-400 {
+    min-height: auto;
+  }
 }
-}
-
-
 
 /* AB HIER ERSTMAL NICHT WEITER */
 
@@ -140,14 +140,6 @@ b {
   max-width: 1920px;
   margin: auto;
 }
-
-
-
-
-
-
-
-
 
 .col-image {
   min-height: 500px;
@@ -163,7 +155,8 @@ b {
 .icon {
   height: 48px;
   width: 48px;
-  filter: invert(20%) sepia(64%) saturate(2%) hue-rotate(102deg) brightness(100%) contrast(81%);
+  filter: invert(20%) sepia(64%) saturate(2%) hue-rotate(102deg)
+    brightness(100%) contrast(81%);
 }
 
 .font-18 {
@@ -174,12 +167,11 @@ b {
   font-size: 22px;
 }
 
-
-
 .room-image {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 4px;
-  box-shadow: 0 28px 64px 0 rgba(0, 0, 0, 0.2), 0 36px 72px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 28px 64px 0 rgba(0, 0, 0, 0.2),
+    0 36px 72px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer {
@@ -187,18 +179,11 @@ b {
   position: relative;
 }
 
-
-
-
-
-
 /* Icons kommen von hier: https://iconduck.com/search?query=vectorSetIds%3A1273%3A+info */
 /* Unsplash Hero bild kommt von hier: https://unsplash.com/photos/a-mountain-range-with-trees-BC8p5irdF2I */
 /* https://unsplash.com/photos/cow-on-lawn-grass-mHcm4Bcu-Gs */
 /* https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
 /* bg-light ist zb bootstrap klasse für hintergrund. daher mal schauen ob wir das im css überhaupt brauchen oder ob wir das irgendwie anders hinbekommen */
-
-
 
 /* Development only - delete later */
 html {
@@ -225,26 +210,23 @@ html {
   color: purple;
 }
 
-
 /* Start vacation description */
 /* Rename */
 .vacation-description {
-    font-size: 20px;
-    line-height: 1.7;
-    font-weight: 300;
-    color: #333
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #333;
 }
 
 /* Start features */
-
-
 
 /* End features */
 
 /* Start icons */
 .button-link {
   text-decoration: none;
-  color: rgba(71, 71, 71, .75);
+  color: rgba(71, 71, 71, 0.75);
 }
 
 .button-link:hover {
@@ -271,5 +253,3 @@ button:hover .button-link:not(:hover) {
 /* End price */
 
 /* remove all other classes and only stick with p for those with the same properties */
-
-
