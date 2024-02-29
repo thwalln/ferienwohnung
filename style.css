@@ -122,6 +122,10 @@ b {
     brightness(100%) contrast(81%);
 }
 
+.card {
+  border: none;
+}
+
 .btn-outline-dark {
   --bs-btn-color: var(--bs-text-color);
   --bs-btn-border-color: var(--bs-text-color);
@@ -129,6 +133,19 @@ b {
   --bs-btn-hover-bg: var(--bs-text-color);
   --bs-btn-hover-border-color: var(--bs-text-color);
   --bs-btn-active-bg: var(--bs-body-color);
+}
+
+.button-link {
+  text-decoration: none;
+  color: rgba(71, 71, 71, 0.75);
+}
+
+.button-link:hover {
+  color: #fff;
+}
+
+button:hover .button-link:not(:hover) {
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
@@ -170,19 +187,9 @@ b {
 
 
 
-.font-18 {
-  font-size: 18px;
-}
 
 .font-22 {
   font-size: 22px;
-}
-
-.room-image {
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 28px 64px 0 rgba(0, 0, 0, 0.2),
-    0 36px 72px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer {
@@ -196,7 +203,15 @@ b {
 /* https://unsplash.com/photos/brown-log-lot-at-daytime-UuX-Le3bfzc */
 /* bg-light ist zb bootstrap klasse für hintergrund. daher mal schauen ob wir das im css überhaupt brauchen oder ob wir das irgendwie anders hinbekommen */
 
-/* Development only - delete later */
+
+/* Remove stuff below */
+.vacation-description {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #333;
+}
+
 html {
   min-height: 2400px;
 }
@@ -219,46 +234,4 @@ html {
 
 .purple {
   color: purple;
-}
-
-/* Start vacation description */
-/* Rename */
-.vacation-description {
-  font-size: 20px;
-  line-height: 1.7;
-  font-weight: 300;
-  color: #333;
-}
-
-/* Start features */
-
-/* End features */
-
-/* Start icons */
-.button-link {
-  text-decoration: none;
-  color: rgba(71, 71, 71, 0.75);
-}
-
-.button-link:hover {
-  color: #fff;
-}
-
-button:hover .button-link:not(:hover) {
-  color: #fff;
-}
-
-/* Switch to variables in the entire file */
-
-/* End icons */
-
-/* Start price */
-
-/* End price */
-
-/* remove all other classes and only stick with p for those with the same properties */
-
-
-.card {
-  border: none;
 }
