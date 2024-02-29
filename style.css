@@ -57,6 +57,14 @@ body {
   position: relative;
 }
 
+.link-footer {
+  color: #333;
+}
+.icon-footer {
+  width: 20px;
+  height: 20px
+}
+
 .link {
   text-decoration: none;
   color: #333;
@@ -193,7 +201,7 @@ button:hover .button-link:not(:hover) {
 }
 
 .footer {
-  min-height: 50vh;
+  height: 30vh;
   position: relative;
 }
 
