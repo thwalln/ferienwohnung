@@ -108,6 +108,10 @@ b {
   height: 28px;
 }
 
+.filter-white {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(221%) hue-rotate(350deg) brightness(116%) contrast(100%);
+}
+
 .feature {
   font-size: 1.16rem;
 }
