@@ -5,7 +5,9 @@
 :root {
   --bs-body-color: #333;
   --bs-body-secondary-color: #f7f7f7;
+  --bs-body-tertiary-color: #69877D;
   --bs-text-color: rgba(71, 71, 71, 0.75);
+  --bs-text-tertiary-color: #fff;
   --bs-text-secondary-color: #333;
   --bs-body-font-family: "RobotoSlab", sans-serif;
 }
@@ -106,12 +108,24 @@ b {
   height: 28px;
 }
 
+.filter-white {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(221%) hue-rotate(350deg) brightness(116%) contrast(100%);
+}
+
 .feature {
   font-size: 1.16rem;
 }
 
 .secondary-background {
   background-color: var(--bs-body-secondary-color);
+}
+
+.tertiary-background {
+  background-color: var(--bs-body-tertiary-color);
+}
+
+.tertiary-color {
+    color: var(--bs-text-tertiary-color)
 }
 
 .icon {
